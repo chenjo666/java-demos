@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jvm" />
+        <module name="java-se-concurrent" />
+        <module name="java-net-netty" />
+        <module name="java-cache-caffeine" />
+        <module name="java-design-pattern" />
+        <module name="java-ee" />
+        <module name="java-se-datastructure" />
+        <module name="java-se-algorithm" />
+        <module name="core" />
+        <module name="java-net" />
+        <module name="java-ee-spring" />
+        <module name="kafka" />
+        <module name="java-se-lang" />
+        <module name="java-se" />
+        <module name="java-design-principle" />
+        <module name="java-cache" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java-cache-redis" target="1.8" />
+      <module name="java-database" target="1.8" />
+      <module name="java-mq" target="1.8" />
+      <module name="java-mq-kafka" target="1.8" />
+      <module name="java-se-network" target="1.8" />
+      <module name="java-search" target="1.8" />
+      <module name="java-search-elasticsearch" target="1.8" />
+      <module name="lang" target="1.8" />
+      <module name="thread" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

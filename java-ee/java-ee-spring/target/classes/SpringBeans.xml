@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-4.2.xsd
+            http://www.springframework.org/schema/aop
+            http://www.springframework.org/schema/aop/spring-aop-4.2.xsd">
+    <!-- 配置Bean对象 -->
+    <bean id="normalBeanLife" class="com.cj.spring.ioc.NormalBeanLife" init-method="initBean"
+          destroy-method="destroyBean">
+        <!-- set 属性注入 -->
+        <property name="msg" value="模拟Bean的生命周期"/>
+    </bean>
+    <bean id="bean" class="com.cj.spring.ioc.Bean"></bean>
+    <!-- 配置Bean对象 -->
+    <bean id="postBeanLife" class="com.cj.spring.ioc.PostBeanLife" init-method="initBean" destroy-method="destroyBean">
+        <property name="msg" value="模拟Bean的生命周期"></property>
+    </bean>
+    <!-- 配置Bean后置处理器 -->
+    <!--    <bean id="myBeanPostProcessor" class="com.cj.spring.ioc.PostBeanProcessor"></bean>-->
+    <bean id="singletonBean" class="com.cj.spring.ioc.SingletonBean" scope="singleton"></bean>
+
+    <bean id="iocBean" class="com.cj.spring.ioc.IocBean"></bean>
+
+    <!-- 开启组件扫描 -->
+    <context:component-scan base-package="com.cj.spring.aop"></context:component-scan>
+    <!-- 开启注解扫描 -->
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+</beans>
