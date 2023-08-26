@@ -10,7 +10,7 @@ public class Test {
         humans.add(new Human("莉莉", "女", "黄"));
         humans.add(new Human("艾伦", "男", "白"));
         humans.add(new Human("爱丽丝", "女", "白"));
-        Exception
+
         IHumanFilter manFilter = new ManFilter();
         System.out.println("男人：");
         printList(manFilter.humanFilter(humans));
