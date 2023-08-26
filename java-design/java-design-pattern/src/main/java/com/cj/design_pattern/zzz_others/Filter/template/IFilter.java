@@ -1,4 +1,4 @@
-package com.cj.design_pattern.Filter.template;
+package com.cj.design_pattern.zzz_others.Filter.template;
 
 import java.util.List;
 

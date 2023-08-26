@@ -1,4 +1,4 @@
-package com.cj.design_pattern.Filter.demo;
+package com.cj.design_pattern.zzz_others.Filter.demo;
 
 import java.util.LinkedList;
 import java.util.List;
