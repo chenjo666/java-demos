@@ -1,4 +1,4 @@
-package com.cj.design_pattern.behavioral_11.TemplateMethod.demo1;
+package com.cj.design_pattern.behavioral_11.template_method;
 
 abstract class BallGame {
     abstract void initialize();
@@ -49,7 +49,7 @@ class FootBallGame extends BallGame {
     }
 }
 
-public class Test {
+public class TemplateMethodDemo1 {
     public static void main(String[] args) {
         BallGame game = new BasketBallGame();
         game.play();
