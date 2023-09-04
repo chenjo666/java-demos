@@ -1,7 +1,7 @@
 package com.cj.concurrent.thread;
 
 
-public class TestThreadSleep {
+public class ThreadSleepDemo {
     public static void main(String[] args) throws InterruptedException {
         System.out.println(Thread.currentThread().getName());
 
