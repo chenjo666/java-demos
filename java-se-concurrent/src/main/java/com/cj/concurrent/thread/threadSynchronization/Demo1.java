@@ -1,7 +1,5 @@
 package com.cj.concurrent.thread.threadSynchronization;
 
-import java.lang.ref.Reference;
-
 class SynchronizedObject {
     private int count = 0;
     public void increment() {
