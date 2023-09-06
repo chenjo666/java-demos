@@ -7,13 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jvm" />
-        <module name="java-se-concurrent" />
         <module name="java-net-netty" />
         <module name="java-cache-caffeine" />
+        <module name="java-concurrent" />
         <module name="java-design-pattern" />
         <module name="java-ee" />
         <module name="java-se-datastructure" />
         <module name="java-se-algorithm" />
+        <module name="java-db" />
         <module name="core" />
         <module name="java-net" />
         <module name="java-ee-spring" />
@@ -21,7 +22,6 @@
         <module name="java-se-lang" />
         <module name="java-se" />
         <module name="java-design-principle" />
-        <module name="java-cache" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

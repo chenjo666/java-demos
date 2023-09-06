@@ -38,6 +38,10 @@ class AspectjAdviceOrder {
         System.out.println("around after...");
         return proceed;
     }
+    @Before("point()")
+    public void before2() {
+        System.out.println("before2...");
+    }
 }
 
 public class AspectJAdviceOrderDemo {

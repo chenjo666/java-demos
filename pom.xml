@@ -17,7 +17,7 @@
         <module>java-se/java-se-datastructure</module>
         <module>java-se/java-se-lang</module>
         <module>java-se/java-se-algorithm</module>
-        <module>java-se-concurrent</module>
+        <module>java-concurrent</module>
         <!-- java ee -->
         <module>java-ee</module>
         <module>java-ee/java-ee-spring</module>
@@ -26,8 +26,8 @@
         <module>java-design/java-design-pattern</module>
         <module>java-design/java-design-principle</module>
 
-        <module>java-cache</module>
-        <module>java-cache/java-cache-caffeine</module>
+        <module>java-db</module>
+        <module>java-db/java-cache-caffeine</module>
         <!-- 网络编程 -->
         <module>java-net</module>
         <module>java-net/java-net-netty</module>
