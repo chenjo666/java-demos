@@ -1,11 +1,11 @@
-package com.cj.design_pattern.structural_07.Composite.demo1;
+package com.cj.design_pattern.structural_07.composite;
 
 import java.util.ArrayList;
 import java.util.List;
 
-abstract class Component {
+abstract class FileComponent {
     private String name;
-    public Component(String name) {
+    public FileComponent(String name) {
         this.name = name;
     }
 
@@ -16,7 +16,7 @@ abstract class Component {
     // 打印当前所在的层次
     public abstract void printLevel(int level);
 }
-class File extends Component {
+class File extends FileComponent {
 
     public File(String name) {
         super(name);
@@ -31,19 +31,19 @@ class File extends Component {
     }
 
 }
-class Folder extends Component {
-    private List<Component> children;
+class Folder extends FileComponent {
+    private List<FileComponent> children;
 
     public Folder(String name) {
         super(name);
         this.children = new ArrayList<>();
     }
 
-    public void addComponent(Component component) {
-        children.add(component);
+    public void addComponent(FileComponent fileComponent) {
+        children.add(fileComponent);
     }
-    public void removeComponent(Component component) {
-        children.remove(component);
+    public void removeComponent(FileComponent fileComponent) {
+        children.remove(fileComponent);
     }
     @Override
     public void printLevel(int level) {
@@ -51,19 +51,19 @@ class Folder extends Component {
             System.out.print("    ");
         }
         System.out.println(this.getName());
-        for (Component child : children) {
+        for (FileComponent child : children) {
             child.printLevel(level + 1);
         }
     }
 }
 
-public class Test {
+public class CompositeDemo  {
     public static void main(String[] args) {
         Folder root = new Folder("root");
         Folder user = new Folder("user");
-        Component openTxt = new File("open.txt");
-        Component user1 = new File("user1.txt");
-        Component user2 = new File("user2.txt");
+        FileComponent openTxt = new File("open.txt");
+        FileComponent user1 = new File("user1.txt");
+        FileComponent user2 = new File("user2.txt");
         user.addComponent(user1);
         user.addComponent(user2);
         root.addComponent(user);

@@ -1,4 +1,4 @@
-package com.cj.design_pattern.structural_07.Bridge.demo1;
+package com.cj.design_pattern.structural_07.Bridge;
 
 
 
@@ -64,7 +64,7 @@ class GreenDraw implements IDraw {
         System.out.println("画绿色！");
     }
 }
-public class Client {
+public class BridgeDemo {
     public static void main(String[] args) {
         // 颜色
         IDraw red = new RedDraw();
