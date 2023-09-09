@@ -10,6 +10,7 @@
         <module name="java-net-netty" />
         <module name="java-cache-caffeine" />
         <module name="java-concurrent" />
+        <module name="java-base" />
         <module name="java-design-pattern" />
         <module name="java-ee" />
         <module name="java-se-datastructure" />
@@ -19,7 +20,6 @@
         <module name="java-net" />
         <module name="java-ee-spring" />
         <module name="kafka" />
-        <module name="java-se-lang" />
         <module name="java-se" />
         <module name="java-design-principle" />
       </profile>

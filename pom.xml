@@ -15,7 +15,7 @@
         <!-- java se -->
         <module>java-se</module>
         <module>java-se/java-se-datastructure</module>
-        <module>java-se/java-se-lang</module>
+        <module>java-base</module>
         <module>java-se/java-se-algorithm</module>
         <module>java-concurrent</module>
         <!-- java ee -->

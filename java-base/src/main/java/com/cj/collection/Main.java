@@ -25,6 +25,8 @@ public class Main {
         System.out.println("k1: " + objKeyMap.get(k1));
         System.out.println("k2: " + objKeyMap.get(k2));
         Set<Object> objects = new HashSet<>();
+
+        new ArrayList<>();
     }
 }
 class ObjKey {

@@ -9,6 +9,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/java-se/java-base/pom.xml" />
         <option value="$PROJECT_DIR$/java-se/java-se-network/pom.xml" />
         <option value="$PROJECT_DIR$/lang/pom.xml" />
         <option value="$PROJECT_DIR$/thread/pom.xml" />
