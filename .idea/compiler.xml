@@ -13,14 +13,14 @@
         <module name="java-base" />
         <module name="java-design-pattern" />
         <module name="java-ee" />
-        <module name="java-se-datastructure" />
-        <module name="java-se-algorithm" />
+        <module name="java-datastructure" />
         <module name="java-db" />
         <module name="core" />
         <module name="java-net" />
         <module name="java-dev-springboot" />
         <module name="java-ee-spring" />
         <module name="kafka" />
+        <module name="java-algorithm" />
         <module name="java-se" />
         <module name="java-design-principle" />
       </profile>

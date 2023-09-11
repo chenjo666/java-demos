@@ -14,9 +14,9 @@
         <module>core</module>
         <!-- java se -->
         <module>java-se</module>
-        <module>java-se/java-se-datastructure</module>
+        <module>java-datastructure</module>
         <module>java-base</module>
-        <module>java-se/java-se-algorithm</module>
+        <module>java-algorithm</module>
         <module>java-concurrent</module>
         <!-- java ee -->
         <module>java-ee</module>
