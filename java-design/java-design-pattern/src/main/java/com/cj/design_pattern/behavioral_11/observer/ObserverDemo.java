@@ -1,4 +1,4 @@
-package com.cj.design_pattern.behavioral_11.Observer.demo1;
+package com.cj.design_pattern.behavioral_11.observer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,7 +47,7 @@ class AviationUnit implements Unit {
     }
 }
 
-public class Test {
+public class ObserverDemo {
     public static void main(String[] args) {
         Weather weatherStation = new WeatherStation();
         Unit governmentUnit = new GovernmentUnit();

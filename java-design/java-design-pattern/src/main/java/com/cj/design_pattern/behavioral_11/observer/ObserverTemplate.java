@@ -1,9 +1,24 @@
-package com.cj.design_pattern.behavioral_11.Observer.template;
+package com.cj.design_pattern.behavioral_11.observer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ConcreteSubject implements Subject {
+interface Observer {
+    void update();
+}
+
+class ConcreteObserver implements Observer {
+    @Override
+    public void update() {
+
+    }
+}
+interface Subject {
+    void addObserver(Observer observer);
+    void removeObserver(Observer observer);
+    void notifyObservers();
+}
+class ConcreteSubject implements Subject {
     List<Observer> observers = new ArrayList<>();
     @Override
     public void addObserver(Observer observer) {
@@ -21,4 +36,7 @@ public class ConcreteSubject implements Subject {
             observer.update();
         }
     }
+}
+
+public class ObserverTemplate {
 }
