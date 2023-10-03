@@ -12,13 +12,14 @@
         <module name="java-concurrent" />
         <module name="java-base" />
         <module name="java-design-pattern" />
-        <module name="java-ee" />
+        <module name="java-dev-spring" />
+        <module name="eureka-server" />
         <module name="java-datastructure" />
         <module name="java-db" />
         <module name="core" />
         <module name="java-net" />
         <module name="java-dev-springboot" />
-        <module name="java-ee-spring" />
+        <module name="eureka-client" />
         <module name="kafka" />
         <module name="java-algorithm" />
         <module name="java-se" />
@@ -39,7 +40,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-client" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="java-dev-springboot" options="-parameters" />
+      <module name="java-dev-springcloud" options="-parameters" />
     </option>
   </component>
 </project>
