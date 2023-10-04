@@ -18,10 +18,9 @@
         <module>java-base</module>
         <module>java-algorithm</module>
         <module>java-concurrent</module>
-        <!-- java ee -->
+        <!-- java dev -->
         <module>java-dev</module>
         <module>java-dev/java-dev-spring</module>
-        <module>java-dev/java-dev-springboot</module>
         <module>java-dev/java-dev-springcloud</module>
         <!-- 代码设计：8 种设计原则 + 23 种设计模式 -->
         <module>java-design</module>

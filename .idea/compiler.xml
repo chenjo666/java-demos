@@ -18,17 +18,20 @@
         <module name="java-db" />
         <module name="core" />
         <module name="java-net" />
-        <module name="java-dev-springboot" />
+        <module name="nacos-consumer" />
         <module name="eureka-client" />
+        <module name="nacos-config" />
         <module name="kafka" />
         <module name="java-algorithm" />
         <module name="java-se" />
         <module name="java-design-principle" />
+        <module name="nacos-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="java-cache-redis" target="1.8" />
       <module name="java-database" target="1.8" />
+      <module name="java-dev-springboot" target="17" />
       <module name="java-mq" target="1.8" />
       <module name="java-mq-kafka" target="1.8" />
       <module name="java-se-network" target="1.8" />
@@ -44,6 +47,9 @@
       <module name="eureka-server" options="-parameters" />
       <module name="java-dev-springboot" options="-parameters" />
       <module name="java-dev-springcloud" options="-parameters" />
+      <module name="nacos-config" options="-parameters" />
+      <module name="nacos-consumer" options="-parameters" />
+      <module name="nacos-provider" options="-parameters" />
     </option>
   </component>
 </project>
