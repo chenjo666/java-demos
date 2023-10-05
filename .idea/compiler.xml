@@ -13,12 +13,14 @@
         <module name="java-base" />
         <module name="java-design-pattern" />
         <module name="java-dev-spring" />
+        <module name="date-format-starter-test" />
         <module name="eureka-server" />
         <module name="java-datastructure" />
         <module name="java-db" />
         <module name="core" />
         <module name="java-net" />
         <module name="nacos-consumer" />
+        <module name="java-dev-springboot" />
         <module name="eureka-client" />
         <module name="nacos-config" />
         <module name="kafka" />
@@ -29,20 +31,25 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="date-format-spring-boot-starter" target="1.8" />
+      <module name="date-format-starter-test" target="17" />
       <module name="java-cache-redis" target="1.8" />
       <module name="java-database" target="1.8" />
-      <module name="java-dev-springboot" target="17" />
       <module name="java-mq" target="1.8" />
       <module name="java-mq-kafka" target="1.8" />
       <module name="java-se-network" target="1.8" />
       <module name="java-search" target="1.8" />
       <module name="java-search-elasticsearch" target="1.8" />
       <module name="lang" target="1.8" />
+      <module name="sms-spring-boot-starter" target="1.8" />
+      <module name="springboot" target="17" />
       <module name="thread" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="date-format-spring-boot-starter" options="" />
+      <module name="date-format-starter-test" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="java-dev-springboot" options="-parameters" />
@@ -50,6 +57,7 @@
       <module name="nacos-config" options="-parameters" />
       <module name="nacos-consumer" options="-parameters" />
       <module name="nacos-provider" options="-parameters" />
+      <module name="springboot" options="-parameters" />
     </option>
   </component>
 </project>
