@@ -17,6 +17,7 @@
         <module name="eureka-server" />
         <module name="java-datastructure" />
         <module name="java-db" />
+        <module name="feign-client" />
         <module name="core" />
         <module name="java-net" />
         <module name="nacos-consumer" />
@@ -52,6 +53,7 @@
       <module name="date-format-starter-test" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="feign-client" options="-parameters" />
       <module name="java-dev-springboot" options="-parameters" />
       <module name="java-dev-springcloud" options="-parameters" />
       <module name="nacos-config" options="-parameters" />
