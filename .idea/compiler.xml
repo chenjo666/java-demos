@@ -6,29 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jvm" />
         <module name="java-net-netty" />
         <module name="java-cache-caffeine" />
         <module name="java-concurrent" />
-        <module name="java-base" />
         <module name="java-design-pattern" />
         <module name="java-dev-spring" />
-        <module name="date-format-starter-test" />
+        <module name="user-service" />
         <module name="eureka-server" />
-        <module name="java-datastructure" />
         <module name="java-db" />
         <module name="feign-client" />
-        <module name="core" />
-        <module name="java-net" />
         <module name="nacos-consumer" />
         <module name="java-dev-springboot" />
-        <module name="eureka-client" />
         <module name="nacos-config" />
-        <module name="kafka" />
         <module name="java-algorithm" />
         <module name="java-se" />
         <module name="java-design-principle" />
         <module name="nacos-provider" />
+        <module name="jvm" />
+        <module name="java-base" />
+        <module name="date-format-starter-test" />
+        <module name="java-datastructure" />
+        <module name="code-service" />
+        <module name="core" />
+        <module name="java-net" />
+        <module name="eureka-client" />
+        <module name="kafka" />
+        <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -49,17 +52,20 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="code-service" options="-parameters" />
       <module name="date-format-spring-boot-starter" options="" />
       <module name="date-format-starter-test" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="feign-client" options="-parameters" />
+      <module name="gateway" options="-parameters" />
       <module name="java-dev-springboot" options="-parameters" />
       <module name="java-dev-springcloud" options="-parameters" />
       <module name="nacos-config" options="-parameters" />
       <module name="nacos-consumer" options="-parameters" />
       <module name="nacos-provider" options="-parameters" />
       <module name="springboot" options="-parameters" />
+      <module name="user-service" options="-parameters" />
     </option>
   </component>
 </project>

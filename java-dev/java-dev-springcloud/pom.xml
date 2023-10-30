@@ -10,6 +10,9 @@
         <module>nacos-consumer</module>
         <module>nacos-config</module>
         <module>feign-client</module>
+        <module>gateway</module>
+        <module>user-service</module>
+        <module>code-service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

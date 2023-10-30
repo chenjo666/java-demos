@@ -2,7 +2,7 @@ package com.cj.argorithm.dp;
 
 import java.util.Scanner;
 
-public class Package01 {
+public class Zero_OneKnapsack {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
@@ -19,15 +19,16 @@ public class Package01 {
 
     public static int getAns(int n, int[] v, int[] w, int k) {
         int[][] f = new int[n + 1][k + 1];
-        for (int i = 1; i <= n; i++) {
+        for (int i = 0; i < n; i++) {
             for (int j = 1; j <= k; j++) {
-                if (j < w[i - 1]) {
-                    f[i][j] = f[i - 1][j];
+                if (j - w[i] < 0) {
+                    f[i + 1][j] = f[i][j];
                 } else {
-                    f[i][j] = Math.max(f[i - 1][j], f[i - 1][j - w[i - 1]] + v[i - 1]);
+                    f[i + 1][j] = Math.max(f[i][j], f[i][j - w[i]] + v[i]);
                 }
             }
         }
         return f[n][k];
     }
+
 }
