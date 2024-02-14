@@ -19,7 +19,6 @@
         <module name="java-dev-springboot" />
         <module name="nacos-config" />
         <module name="java-algorithm" />
-        <module name="java-se" />
         <module name="java-design-principle" />
         <module name="nacos-provider" />
         <module name="jvm" />
@@ -41,6 +40,7 @@
       <module name="java-database" target="1.8" />
       <module name="java-mq" target="1.8" />
       <module name="java-mq-kafka" target="1.8" />
+      <module name="java-se" target="1.8" />
       <module name="java-se-network" target="1.8" />
       <module name="java-search" target="1.8" />
       <module name="java-search-elasticsearch" target="1.8" />

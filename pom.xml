@@ -13,7 +13,6 @@
         <module>jvm</module>
         <module>core</module>
         <!-- java se -->
-        <module>java-se</module>
         <module>java-datastructure</module>
         <module>java-base</module>
         <module>java-algorithm</module>
@@ -52,11 +51,6 @@
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.10.0</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
-            <version>4.1.94.Final</version>
         </dependency>
     </dependencies>
 </project>
